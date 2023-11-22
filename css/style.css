@@ -130,8 +130,8 @@ img {
 }
 
 .menu-container label::before {
-    border-bottom: 2px solid #000;
-    box-shadow: 0 5px 0 0 #000, 0 0 0 0 inset, 0 -5px 0 0 #000;
+    border-bottom: 2px solid #2D9DF9;
+    box-shadow: 0 5px 0 0 #2D9DF9, 0 0 0 0 inset, 0 -5px 0 0 #2D9DF9;
     content: "";
     height: 0;
     left: 50%;
@@ -161,7 +161,7 @@ img {
     top: 4px;
     width: 40px;
     z-index: 9999;
-    border: 1px solid #000;
+    border: 1px solid #2D9DF9;
 }
 
 #navbar ul {
@@ -1002,8 +1002,10 @@ section.tab-section {
     }
 
     .tab-area label {
-        width: 100%;
-    }
+	width: 100%;
+	font-size: 15px;
+	padding: 10px;
+}
 
     section.tab-section {
         padding: 30px 10px;
