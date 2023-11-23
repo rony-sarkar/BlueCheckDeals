@@ -442,6 +442,10 @@ section.tab-section {
     margin: 10px 0 15px;
 }
 
+.tab-list ul {
+	margin: 0 0 20px;
+	padding: 0 25px;
+}
 
 .tab-section p a {
     color: #000;
