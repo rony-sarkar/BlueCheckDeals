@@ -2,11 +2,11 @@
         global area start
     ================================ */
 
-body { 
-    font-size: 14px;
+body {
+    font-size: 14px !important;
     font-weight: 400;
     line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
+    
     color: #1a1a1a;
 }
 
@@ -32,7 +32,7 @@ a {
 
 p {
     font-size: 14px !important;
-    font-family: 'Open Sans', sans-serif;
+    
 
 }
 
@@ -59,15 +59,13 @@ img {
 
 .wel-come h4 {
     color: #fff;
-    font-size: 16px;
-    font-weight: bold;
     font-style: italic;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .wel-come {
     padding: 20px 0;
-    font-weight: 600;
+    
 }
 
 .menu-top {
@@ -91,8 +89,7 @@ img {
 
 .menu-top li a {
     color: #fff;
-    font-size: 16px;
-    font-weight: bold;
+    
     font-style: italic;
     transition: 0.5s;
 }
@@ -174,11 +171,10 @@ img {
 }
 
 #navbar ul li a {
-    font-size: 18px;
     color: #000;
     line-height: 25px;
     display: inline-block;
-    font-weight: 600;
+    
     text-transform: uppercase;
     transition: 0.5s;
     padding: 20px 40px;
@@ -228,7 +224,6 @@ img {
 }
 
 .service-left i {
-    font-size: 40px;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -241,11 +236,10 @@ img {
 
 .service-right {
     padding: 10px 0;
-    font-weight: bold;
+    
     color: #000;
     transition: 0.5s;
     text-transform: capitalize;
-    font-size: 16px;
     text-align: center;
     font-style: italic;
 }
@@ -258,14 +252,17 @@ img {
     width: 80%;
     margin: 0 auto;
 }
-.fed{
+
+.fed {
     position: relative;
     top: -4px;
 }
-.com{
+
+.com {
     position: relative;
     top: -2px;
 }
+
 /*  ================================
         product title area end
     ================================ */
@@ -282,7 +279,6 @@ img {
 }
 
 .sidebar-box h3 {
-    font-size: 18px;
     padding: 20px;
     background-color: #2D9DF9;
     background-repeat: no-repeat;
@@ -290,7 +286,7 @@ img {
     text-transform: uppercase;
     position: relative;
     border-top-left-radius: 30px;
-    font-weight: bold;
+    
 }
 
 .sidebar-box ul {
@@ -300,9 +296,7 @@ img {
 .sidebar-box ul li {
     list-style: none;
     padding: 5px 0;
-    position: relative;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    position: relative;    
     border-top: 1px solid #eee;
 }
 
@@ -318,8 +312,7 @@ img {
     transition: 0.5s;
     color: #000;
     display: inline-block;
-    font-weight: 600;
-    font-size: 14px;
+    
 }
 
 .product-wraper {
@@ -331,7 +324,6 @@ img {
 }
 
 .product-wraper h3 {
-    font-size: 18px;
     padding: 20px;
     background-color: #2D9DF9;
     background-repeat: no-repeat;
@@ -339,7 +331,7 @@ img {
     position: relative;
     text-align: center;
     border-top-left-radius: 30px;
-    font-weight: bold;
+    
     margin-bottom: 30px;
 }
 
@@ -353,11 +345,6 @@ img {
 
 .product-dec h3 {
     color: #fff;
-}
-
-.product-dec h1 {
-    font-size: 18px;
-    font-weight: bold;
 }
 
 .product-dec ul {
@@ -396,8 +383,6 @@ section.tab-section {
 
 .tab-part-area label {
     color: #000;
-    font-size: 20px;
-    font-weight: 600;
     border: 1px solid transparent;
     display: inline-block;
     margin: 0 0 -1px;
@@ -405,7 +390,7 @@ section.tab-section {
     text-align: center;
     background-color: #fff;
     border: 1px solid #2D9DF9;
-    font-family: 'Open Sans', sans-serif;
+    
     transition: 0.5s;
     text-transform: uppercase;
 }
@@ -432,19 +417,18 @@ section.tab-section {
 }
 
 .tab-section h3 {
-    font-size: 18px;
-    font-weight: bold;
+    
     margin: 10px 0 15px;
 }
 
 .tab-list ul {
-	margin: 0 0 20px;
-	padding: 0 25px;
+    margin: 0 0 20px;
+    padding: 0 25px;
 }
 
 .tab-section p a {
     color: #000;
-    font-weight: 600;
+    
     text-decoration: underline;
 }
 
@@ -476,11 +460,10 @@ section.tab-section {
     padding: 0 0 10px;
     margin-bottom: 20px;
     text-transform: capitalize;
-    font-size: 20px;
     position: relative;
     color: #fff;
     display: inline-block;
-    font-weight: bold;
+    
 }
 
 .footer-widget h2::before {
@@ -506,7 +489,6 @@ section.tab-section {
     margin-bottom: 5px;
     list-style: none;
     text-transform: capitalize;
-    font-size: 14px;
 }
 
 .footer-widget ul li a {
@@ -517,8 +499,6 @@ section.tab-section {
     transition: 0.5s;
     color: #fff;
     display: inline-block;
-    font-weight: 600;
-    font-size: 14px;
 }
 
 .footer-widget ul li a:hover {
@@ -527,7 +507,6 @@ section.tab-section {
 
 .footer-img p {
     text-transform: capitalize !important;
-    font-weight: 600 !important;
     color: #fff;
 }
 
@@ -535,11 +514,10 @@ section.tab-section {
     border: 1px solid #fff;
     background: #fff;
     color: #000;
-    font-weight: bold;
+    
     border-radius: 30px;
     text-transform: uppercase !important;
     padding: 10px 20px;
-    font-size: 14px;
     letter-spacing: 1px;
     display: inline-block;
 }
@@ -557,7 +535,7 @@ section.tab-section {
 
 .copy-right p a {
     color: #fff;
-    font-weight: 600;
+    
     text-decoration: underline;
 }
 
@@ -812,7 +790,6 @@ section.tab-section {
 @media (min-width: 992px) and (max-width: 1200px) {
     .tab-part-area label {
         padding: 10px 30px;
-        font-size: 18px;
     }
 }
 
@@ -823,17 +800,12 @@ section.tab-section {
         width: 150px;
     }
 
-    .service-right {
-        font-size: 13px;
-    }
-
     .sidebar-box {
         width: 50%;
         margin: 30px auto 0;
     }
 
     #navbar ul li a {
-        font-size: 16px;
         padding: 20px;
     }
 
@@ -865,10 +837,6 @@ section.tab-section {
         padding: 0 10px 0 0;
     }
 
-    .menu-top li a {
-        font-size: 13px;
-    }
-
     .header-top {
         padding: 20px 0;
     }
@@ -881,9 +849,6 @@ section.tab-section {
         margin: 0 0 50px !important;
     }
 
-    .support h2 {
-        font-size: 18px;
-    }
 
     /* menu start */
     .navbar-header > label,
@@ -923,7 +888,6 @@ section.tab-section {
         color: #fff;
         display: block;
         margin: 10px 20px;
-        font-size: 16px;
         padding: 0 10px;
     }
 
@@ -947,9 +911,6 @@ section.tab-section {
     }
 
     /* menu end */
-    .shop-by-categories h3 {
-        font-size: 20px;
-    }
 
     .wel-come,
     .menu-top {
@@ -964,13 +925,6 @@ section.tab-section {
     .pro-title {
         padding: 15px 10px;
         text-align: center;
-    }
-
-    .product-dec p,
-    .tab-section p,
-    .copy-right p,
-    .footer-widget p {
-        font-size: 13px !important;
     }
 
     .pro-title a,
@@ -997,14 +951,13 @@ section.tab-section {
     .product-dec h3,
     .product-dec h4,
     .single-care h3 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .tab-area label {
-	width: 100%;
-	font-size: 15px;
-	padding: 10px;
-}
+        width: 100%;
+        padding: 10px;
+    }
 
     section.tab-section {
         padding: 30px 10px;
