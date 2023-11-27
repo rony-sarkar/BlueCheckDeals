@@ -33,8 +33,6 @@ font-size: 14px !important;
 
 p {
     font-size: 14px !important;
-    
-
 }
 
 .main-div {
@@ -44,7 +42,9 @@ p {
 img {
     max-width: 100%;
 }
-
+b, strong {
+	font-weight: 400;
+}
 /*  ================================
         global area end
     ================================ */
@@ -90,8 +90,6 @@ img {
 
 .menu-top li a {
     color: #fff;
-    
-    font-style: italic;
     transition: 0.5s;
 }
 
@@ -175,8 +173,7 @@ img {
     color: #000;
     line-height: 25px;
     display: inline-block;
-    
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: 0.5s;
     padding: 20px 40px;
     border-left: 1px solid #fff
@@ -390,9 +387,9 @@ section.tab-section {
     text-align: center;
     background-color: #fff;
     border: 1px solid #2D9DF9;
-    
     transition: 0.5s;
-    text-transform: uppercase;
+    text-transform: capitalize;
+        font-weight: 400;
 }
 
 .tab-part-area label:hover {
@@ -514,12 +511,11 @@ section.tab-section {
     border: 1px solid #fff;
     background: #fff;
     color: #000;
-    
     border-radius: 30px;
-    text-transform: uppercase !important;
     padding: 10px 20px;
     letter-spacing: 1px;
     display: inline-block;
+        text-transform: capitalize;
 }
 
 .sub-btn:focus,
